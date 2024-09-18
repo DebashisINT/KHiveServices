@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602817655692",
+    "project_id": "breeze-khive",
+    "storage_bucket": "breeze-khive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602817655692:android:9575d8d772fb970a98dca9",
+        "android_client_info": {
+          "package_name": "com.breezefieldsaleskhive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_ZRy0H5ol2riecKKcv8j7sRGrO_Pyp9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
