@@ -1,0 +1,21 @@
+package com.breezefieldsaleskhive.features.stock.api
+
+import com.breezefieldsaleskhive.app.Pref
+import com.breezefieldsaleskhive.base.BaseResponse
+import com.breezefieldsaleskhive.features.stock.model.AddStockInputParamsModel
+import com.breezefieldsaleskhive.features.stock.model.NewStockListResponseModel
+import io.reactivex.Observable
+
+/**
+ * Created by Saikat on 17-09-2019.
+ */
+class StockRepository(val apiService: StockApi) {
+
+    fun addStock(addStock: AddStockInputParamsModel): Observable<BaseResponse> {
+        return apiService.addStock(addStock)
+    }
+
+    fun getStockList(): Observable<NewStockListResponseModel> {
+        return apiService.getStockList(Pref.session_token!!, Pref.user_id!!)
+    }
+}
